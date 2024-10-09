@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "airlininformatio")
+@Table(name = "airlineinformation")
 public class Airline {
     @Id
     private String airlinename;
